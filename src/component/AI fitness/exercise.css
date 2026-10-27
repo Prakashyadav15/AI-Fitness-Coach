@@ -1,0 +1,85 @@
+.exercise-bg{
+     background: linear-gradient(120deg, #f7f5f1 0%, #eae6dc 100%);
+    min-height:100vh;
+    padding:20px;
+    padding-top:90px;
+}
+.exercise-cont {
+    background-color: white;
+    padding:20px;
+    margin-top:20px;
+    border-radius: 25px;
+    width:80%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.workout{
+    display: flex;
+    justify-content:start;
+
+}
+.set{
+    margin-right:20px;
+    background-color:#dbeafe ;
+    color:#1e40af;
+    padding:4px;
+    padding-left:9px;
+    padding-right:9px;
+    font-size: 13px;
+    border-radius:9px ;
+}
+.rep{
+    background-color:#ffedd5 ;
+    color:#9a3412;
+    padding:4px;
+     padding-left:9px;
+    padding-right:9px;
+    font-size: 13px;
+    border-radius:9px ;
+}
+.video a{
+   text-decoration: none;
+   
+}
+.video{
+    margin-top:20px;
+    font-size: 15px;
+   
+}
+.muscle{
+     color: #666;
+    margin-top:-13px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.name{
+    padding-left:40px;
+    padding-right:40px;
+}
+@media screen and (min-width:1024px){
+.exe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 90%;
+    max-width: 1300px;
+}
+.exercise-cont {
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+.exercise-bg{
+    background: linear-gradient(120deg, #f7f5f1 0%, #eae6dc 100%);
+    min-height:100vh;
+    padding:20px;
+    padding-top:90px;
+}
+}
+
+
+.notification{
+    padding-top: 80px;
+}

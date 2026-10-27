@@ -1,0 +1,325 @@
+.home{
+    background-image: url('c:\Users\praka\Downloads\Gemini_Generated_Image_snvyfnsnvyfnsnvy.png');
+    background-size:cover;
+    height:100vh;
+    position: relative;
+    
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    height:55px;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   z-index: 1000; 
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional */
+   }
+.navbar a{
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color:rgb(101, 99, 99);
+}
+.theme-toggle {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.home-bg{
+    background: linear-gradient(120deg, #f7f5f1 0%, #eae6dc 100%);
+   background-color: #f4f2ed;
+   display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  
+}
+.quote{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top:17%;
+  padding-left: 20%;
+  color:rgb(137, 137, 137);
+}
+h1 {
+  font-family: sans-serif; /* Added for better appearance */
+  font-weight: 300;        /* 400 is the same as 'normal' */
+  line-height: 1.4;        /* Increases space between lines */
+}
+
+h1 span {
+  font-weight: 800;        /* 700 is the same as 'bold' */
+  color: #F7F5F1;             /* Optional: a slightly different color for emphasis */
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+
+}
+.details-second{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+   margin-top: 20px;
+}
+.head {
+  grid-column: 1 / -1;
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;       /* 2 columns */
+  gap: 20px;                             /* spacing between columns/rows */
+  border-radius: 20px;
+  padding: 20px 60px 20px 40px ;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: rgb(38, 37, 37);
+  background: white ;             
+  width: 49%;  
+  margin-left:90px; 
+                  
+}
+.head{
+  margin:0;
+}
+.forms:hover{
+   transform: translateY(-5px); /* slight pop */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+}
+
+.side-image:hover{
+    transform: translateY(-5px); /* slight pop */
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / -1;
+  
+}
+.order-h{
+display: flex;
+}
+.weight{
+  margin-left:20px;
+}
+.details label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.details input{
+  border: 1px solid grey;
+  height: 25px;
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  border-color: rgba(187, 183, 183, 0.968);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.details input:focus,
+.details select:focus,
+.details-second textarea {
+  border-color: #666;
+  transform: scale(1.02);
+}
+
+.home-bg{
+  background-color:#F7F5F1 ;
+}
+.details-second textarea{
+  border: 1px solid grey;
+  height: 100px;
+  margin-top:7px;                        
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  border-color: rgba(187, 183, 183, 0.968);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+
+}
+.time{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.diet{
+  margin-top: 29px;
+}
+
+.section-label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.radio-button {
+  background-color: #f7f5f1;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  color: #333;
+}
+
+.radio-button input {
+  display: none;
+}
+
+.radio-button:hover {
+  background-color: #e9e7e3;
+}
+
+.radio-button.active {
+  background-color: #c9c3b8; 
+  border-color: #8a866f;
+  color: #000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.side-image{
+  width:115%;
+  height:40vh;
+  margin-left:-40px;
+  margin-bottom: -25px;
+  margin-top:-20px;
+  border-radius: 20px;
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+.plan{
+ background-color: #6b7d3b; 
+  color:white;
+  padding:14px;
+  border:none;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: -100px;
+  margin-right: -400px;
+  cursor: pointer;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.plan:hover{
+  background-color: #5e6f33;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+.plan-but{
+  margin-left:290px;
+}
+.err{
+  color:brown;
+}
+.plan-but:disabled{
+  background-color: #bfa98d;
+  cursor: not-allowed;
+}
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fff;
+  border-top: 3px solid #7a5c3a;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@media (max-width: 770px) {
+  .forms {
+    grid-template-columns: 1fr;
+  }
+  .home{
+    background-image: url('c:\Users\praka\Downloads\Gemini_Generated_Image_snvyfnsnvyfnsnvy(2).png');
+    background-size:cover;
+    height:90vh;
+    width:100%;
+}
+.quote{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top:30%;
+  padding-left: 5%;
+  color:rgb(137, 137, 137);
+}
+.side-image{
+  display:none;
+}
+.forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;       /* 2 columns */
+  gap: 20px;                             /* spacing between columns/rows */
+  border-radius: 20px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: rgb(38, 37, 37);
+  background: #ffffff;             
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 60%;    
+}
+.details,
+.details-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  width:100%;
+  height:auto;
+  
+}
+.home-bg{
+  background: linear-gradient(120deg, #f7f5f1 0%, #eae6dc 100%);
+   display:flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  }
+.plan{
+   background-color: #6b7d3b; 
+  color:white;
+  padding:14px;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top:50px;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+ 
+}
+.plan-but{
+  margin-left:280px;
+}
+.plan:hover{
+  background-color: #5e6f33;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+
+}

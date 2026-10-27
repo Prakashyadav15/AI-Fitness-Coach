@@ -1,0 +1,176 @@
+.diet-bg{
+    background: linear-gradient(120deg, #f7f5f1 0%, #eae6dc 100%);
+    min-height:100vh;
+    padding:20px;
+    padding-top:90px;
+    
+}
+.heading-cal{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.head p{
+    margin-top:-10px;
+    color:grey;
+}
+.cal{
+    background-color:#8D8D8D;
+    color:white;
+    padding:15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(97, 95, 95, 0.1);
+} 
+.cal p{
+    font-size:12px;
+    text-align: center;
+}
+.cal h3{
+    margin:0px;
+}
+.list-diet{
+    list-style-type: none;
+
+} 
+.food{
+    background-color: white;
+    width:90%;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+.food h3{
+    margin:0;
+    color:#9ca3af;
+    font-size: 15px;
+}
+.recipe-name{
+    display: flex;
+    justify-content: space-between;
+    margin-top:-15px;
+    color:#1f2937;
+}
+
+.diet-cal p{
+      margin-top: 20px;
+    border:1px solid;
+    height:17px;
+    padding:4px;
+    border-radius: 5px;
+    border:none;
+    font-size: 12px;
+    background-color: #f1f5f9;
+    color:#334155;
+}
+.item-cost p{
+    margin-top:-15px;
+    font-size: 15px;
+}
+.grams{
+    display: flex;
+  }
+.grams p{
+    margin-top: 20px;
+    border:1px solid;
+    padding:3px;
+     padding-left:13px;
+    padding-right:13px;
+    font-size: 13px;
+    border-radius:9px ;
+    border:none;
+    margin-right: 20px;
+}
+.protein{
+    background-color:#dbeafe ;
+    color:#1e40af;
+
+}
+.fat{
+     background-color:#ffedd5 ;
+    color:#9a3412;
+}
+.carb{
+      background-color:#dcfce7 ;
+    color:#166534;
+}
+.view{
+    cursor: pointer;
+    display: flex;
+  }
+.view p{
+    margin-top: 20px;
+    margin-left:10px;
+}
+.view{
+    color:#ca8149;
+}
+.recipe{
+    color:grey;
+}
+@media (min-width: 1024px) {
+  .diet-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 80px;
+    padding-top: 100px;
+  }
+  .grams{
+    display: flex;
+    justify-content: start;
+    
+}
+  .heading-cal {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  .list-diet {
+    width: 100%;
+  }
+
+  .food {
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+
+  .food:hover {
+    transform: translateY(-3px);
+  }
+
+  .head h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .head p {
+    color: #666;
+    font-size: 0.95rem;
+  }
+
+  .cal {
+    background-color: #8D8D8D;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(97, 95, 95, 0.15);
+    min-width: 150px;
+    text-align: center;
+  }
+}
